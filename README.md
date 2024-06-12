@@ -1,8 +1,8 @@
 ## Requirements
-torch
-pandas
-scikit-learn
-tqdm
-numpy
-scipy
-statsmodels
+torch  
+pandas  
+scikit-learn  
+tqdm  
+numpy  
+scipy  
+statsmodels  
