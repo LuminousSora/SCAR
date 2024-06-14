@@ -19,8 +19,7 @@ class SCAR:
                  rbf: bool = False,
                  a: int = 0.2,
                  device: str = 'cuda',
-                 idx = None,
-                 ablation: bool = False
+                 idx = None
                  ):
         self.encoder = None
         self.scl = SCL()
