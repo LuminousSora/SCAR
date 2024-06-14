@@ -36,7 +36,7 @@ if __name__ == '__main__':
         batch_size = 13000
     print('batch size:', batch_size)
 
-    run = model.SCAR(lr=0.001, lr_milestones=[], batch_size=batch_size, epochs=100, rbf=True, a=0.2, device=device, ablation=False)
+    run = model.SCAR(lr=0.001, lr_milestones=[], batch_size=batch_size, epochs=100, rbf=True, a=0.2, device=device)
     run.train_SCL_encoder(data_train=data_train)
     run.test_model(data_test=data_test)
     
