@@ -15,5 +15,5 @@ python run.py
 ```
 ## Result
 ```sh
-AUCROC:0.9834, aucpr:0.9115
+AUCROC:0.9834, AUCPR:0.9115
 ```
