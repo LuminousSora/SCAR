@@ -227,4 +227,4 @@ class DETECTOR():
         aucroc=np.round(roc_auc_score(y_test, y_test_scores), decimals=4)    
         aucpr = np.round(average_precision_score(y_test, y_test_scores), decimals=4)
         
-        print(' AUCROC:{aucroc}, aucpr:{AUCPR}'.format(aucroc=aucroc, aucpr=aucpr))
+        print(' AUCROC:{aucroc}, AUCPR:{AUCPR}'.format(aucroc=aucroc, aucpr=aucpr))
